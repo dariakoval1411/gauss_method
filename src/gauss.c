@@ -22,6 +22,7 @@ int eliminate(Matrix *mat, Matrix *b){
 						b->data[r][0]-=m*(b->data[c][0]);
 			}
 		}
+		printf("Blad")
 
 		return 0;
 }
